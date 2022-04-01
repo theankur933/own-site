@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/html2/images/New\ Project.png');
+    font-family: 'nexa_lightregular';
+}
+
+a, button{
+    cursor: pointer;
+}
+
+.header{
+    width: 100%;
+    height: 1.9cm;
+    background-color: #108073;
+
+}
+
+.left{
+    display: flex;
+}
+
+.left img{
+    margin: 0.8% 0 0 3%;
+}
+
+.center{
+    justify-content: space-around;
+    width: 50%;
+    margin: 2% 0 0 24%;
+}
+
+.center a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.center img{
+    height: 25px;
+    width: 25px;
+    border-radius: 36%;
+    margin: 3px 0px 0px -25px;
+}
+
+.center a:hover{
+    border-bottom:  1px solid white;
+}
+
+.background{
+    width: 100%;
+}
+
+.container{
+    height: 14.23cm;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: start;
+    background-color: white;
+}
+
+.left2{
+    width: 25%;
+    background: whitesmoke;
+}
+
+.left2 h2{
+    margin-left: 13%;
+    line-height: 3;
+    font-size: 30px;
+    color: #0e4f66;;
+}
+
+.right2{
+    margin-left: 5%;
+}
+
+.right2 h2{
+    line-height: 3;
+    color: #0e4f66;
+    font-size: 30px;
+}
+
+table{
+    border: none;
+    width: 100%;
+}
+
+table, th, td{
+    line-height: 3;
+    margin: 0 13pc 0 -2pc;
+}
+table td{
+    margin-left: 3pc;
+    text-align: right;
+}
+
+ul{
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 13%;
+    line-height: 1.9;
+}
+
+li img{
+    width: 20px;
+    height: 20px;
+    vertical-align: sub;
+    transition: 0.6s linear;
+}
+
+li:hover{
+    background-color: #108073;
+    border: 1px solid #108073;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+}
+
+.btn5{
+    padding: 35px 0;
+}
+
+.btn5 button{
+    font-size: 12px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 10px 15px 9px;
+    background: transparent;
+    transition: all 0.2s linear;
+}
+
+.btn5 button:hover{
+    background: #0e4f66;
+    border-color: #0e4f66;
+    color: #fff;
+}
+
+.footer{
+    width: 100%;
+    height: 1.4cm;
+    background-color: #0e4f66;
+}
+
+.footer p{
+    text-align: center;
+    padding-top: 18px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    body{
+    overflow-x: hidden;
+}
+
+.left img{
+    margin: 2% 0 0 3%;
+}
+
+    .left2, .center{
+        display: none;
+    }
+
+    .container{
+        height: 13.3cm;
+}
+
+.footer p{
+    padding-top: 4%;
+}
+}
