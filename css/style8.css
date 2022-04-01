@@ -1,63 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-image: url('/html2/images/New\ Project.png');
     font-family: 'nexa_lightregular';
 }
 
-a, button{
+a,
+button {
     cursor: pointer;
 }
 
-.header{
+.header {
     width: 100%;
     height: 1.7cm;
     background-color: #108073;
 }
 
-.left{
+.left {
     display: flex;
     height: 1.6cm;
 }
 
-.left img{
+.left img {
     margin: 5px 0px 0 30px;
 }
 
-.center{
+.center {
     display: flex;
     justify-content: space-evenly;
     width: 66%;
     align-items: center;
 }
 
-.center a{
+.center a {
     text-decoration: none;
     color: white;
     transition: 0.3s ease-in-out;
 }
 
-.center img{
+.center img {
     height: 15px;
     width: 15px;
     margin: 3px 0px 0px -25px;
 }
 
-.center a:hover{
-    border-bottom:  1px solid white;
+.center a:hover {
+    border-bottom: 1px solid white;
 }
 
-.right{
+.right {
     display: flex;
     margin: 14px auto;
     align-items: center;
 }
 
-.right button{
+.right button {
     margin: 8px;
     padding: 5px;
     width: 80px;
@@ -69,74 +70,75 @@ a, button{
     transition: 0.3s ease-in-out;
 }
 
-.right a{
+.right button:hover {
+    background-color: cornflowerblue;
+    border: none;
+}
+
+.right a {
     display: none;
 }
 
-.right button:hover{
-    background-color: cornflowerblue;
-}
-
-.background{
+.background {
     width: 100%;
     height: 1.7cm;
     background-color: #108073;
 
 }
 
-i{
+i {
     margin: 3px;
 }
 
-.container{
+.container {
     height: 14.54cm;
     width: 55%;
     margin: 0 auto;
     background-color: white;
 }
 
-.text{
+.text {
     padding: 80px 0 0 0;
     text-align: center;
     line-height: 65px;
 }
 
-.text h2{
+.text h2 {
     color: #3d6a3d;
 }
 
 
-.form{
+.form {
     display: flex;
     margin-top: 3%;
     justify-content: center;
 }
 
-.icon{
+.icon {
     border: 1px solid black;
     border-right: none;
-    background-color:black;
+    background-color: black;
     width: 5%;
     margin-left: 2%;
     border-radius: 4px;
 }
 
-.icon img{
+.icon img {
     width: 15px;
     margin: 5px 0 -6px 10px;
 }
 
-.hide img{
-    background:  none;
+.hide img {
+    background: none;
     height: 13px;
     margin: 13px 0 0px -24px;
 }
 
-.fname{
+.fname {
     margin: 0 0 0 -38px;
 }
 
-.fname input{
+.fname input {
     padding: 7px 45px;
     width: 6cm;
     background: none;
@@ -144,37 +146,37 @@ i{
     border-radius: 4px;
 }
 
-.fname ::placeholder{
+.fname ::placeholder {
     text-align: center;
 }
 
-.check{
+.check {
     text-align: center;
     margin-top: 5%;
 }
 
-.check span{
+.check span {
     vertical-align: 3px;
 }
 
-.check a{
+.check a {
     vertical-align: 3px;
 }
 
-.footer{
+.footer {
     width: 100%;
     height: 1.5cm;
     background-color: #0e4f66;
     margin-top: 6px;
 }
 
-.footer p{
+.footer p {
     text-align: center;
     padding: 20px 0 0 0;
     color: #fff;
 }
 
-.btn{
+.btn {
     border: none;
     color: black;
     border-radius: 5px;
@@ -189,54 +191,54 @@ i{
     transition: 0.3s ease-in-out;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: cornflowerblue;
     border: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .center a{
+    .center a {
         display: none;
     }
 
-    .center img{
+    .center img {
         display: none;
     }
 
-.left img{
-    height: 35px;
-    width: 35px;
-    margin: 14px 0px 0 0;
-}
+    .left img {
+        height: 35px;
+        width: 35px;
+        margin: 14px 0px 0 0;
+    }
 
-.left h3{
-    font-size: medium;
-}
+    .left h3 {
+        font-size: medium;
+    }
 
-.right{
-    margin: 12px 2px 0 0;
-}
+    .right {
+        margin: 12px 2px 0 0;
+    }
 
-.right button{
-    display: none;
-}
+    .right button {
+        display: none;
+    }
 
-.container{
-    margin: -1px auto;
-}
+    .container {
+        margin: -1px auto;
+    }
 
-.btn{
-    margin: 6% 12%;
-}
+    .btn {
+        margin: 6% 12%;
+    }
 
-.right a{
-    display: inline-block;
-    margin: 8px 0px 0px 11px;
-    color: white;
-    font-size: 23px;
-}
+    .right a {
+        display: inline-block;
+        margin: 8px 0px 0px 11px;
+        color: white;
+        font-size: 23px;
+    }
 
-.text h2{
-    font-size: 18px;
-}
+    .text h2 {
+        font-size: 18px;
+    }
 }
